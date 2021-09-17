@@ -1,0 +1,31 @@
+.timer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 351px;
+  height: 350px;
+  border: 1px solid #333;
+}
+
+.timer__time {
+  font-size: 70px;
+  color: rgb(75, 74, 74);
+}
+
+.timerButtons {
+  display: flex;
+}
+
+.timerButtons__button {
+  width: 117px;
+  height: 117px;
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(17, 0, 255);
+  border: 2px solid #333;
+}
+
+.timerButtons__button:active {
+  background-color: rgb(2, 0, 100);
+}

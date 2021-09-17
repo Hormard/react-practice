@@ -1,0 +1,60 @@
+.counter {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 15px;
+  width: 351px;
+  height: 350px;
+  border: 1px solid #333;
+}
+
+.counter__count {
+  font-size: 70px;
+  color: rgb(75, 74, 74);
+}
+
+.counterButtons {
+  display: flex;
+}
+
+.counterButtons__buttonPlus {
+  width: 117px;
+  height: 117px;
+  font-size: 60px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(17, 150, 0);
+  border: 0;
+}
+
+.counterButtons__buttonPlus:hover {
+  background-color: rgb(14, 102, 2);
+}
+
+.counterButtons__buttonPlus:active {
+  background-color: rgb(14, 102, 2);
+}
+
+.counterButtons__buttonReset {
+  width: 117px;
+  height: 117px;
+  font-size: 60px;
+  background-color: rgb(243, 219, 1);
+  border: 0;
+}
+
+.counterButtons__buttonReset:hover {
+  background-color: rgb(196, 176, 0);
+}
+
+.counterButtons__buttonMinus {
+  width: 117px;
+  height: 117px;
+  font-size: 60px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(212, 0, 0);
+  border: 0;
+}
+
+.counterButtons__buttonMinus:hover {
+  background-color: rgb(172, 0, 0);
+}
